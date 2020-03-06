@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style/normalize.css" />
     <link
-      rel="stylesheet"
-      href="style/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
-    />
-    <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,900&display=swap"
       rel="stylesheet"
     />
@@ -24,18 +20,18 @@
 
       <div class="info-header">
         <div class="container">
-          <nav class="info-header__nav">
-            <a href="tel:+123-123456789" class="phone info-header__link">
+          <nav class="info-header__navigation">
+            <a href="tel:+123-123456789" class=" info-header__link phone">
               123-123456789</a
             >
 
-            <a href="mailto:info@ltntcom" class="mail info-header__link">
+            <a href="mailto:info@ltntcom" class=" info-header__link mail">
               info@ltntcom</a
             >
 
             <!--  ======Login menu====== -->
 
-            <ul class="login-menu list">
+            <ul class="info-header__list login-menu list">
               <li><a href="#" class="login-menu__link">My Account</a></li>
               <li><a href="#" class="login-menu__link">Wishlist</a></li>
               <li><a href="#" class="login-menu__link">Cart</a></li>
@@ -49,28 +45,28 @@
       <!-- =====Botoom menu navigation======= -->
 
       <div class="container">
-        <nav class="page-header">
-          <h1 class="site-logo">
+        <nav class="main-navigation">
+          <h1 class="main-navigation__site-logo site-logo">
             <a href="#" class="site-logo__link">Mart</a>
           </h1>
-          <ul class="menu-navigation list">
+          <ul class="main-navigation__list list">
             <li>
-              <a href="#" class="menu-item__link">Home</a>
+              <a href="#" class="main-naviagtion__link">Home</a>
             </li>
             <li>
-              <a href="#" class="menu-item__link">About us</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-item__link">Page</a>
+              <a href="#" class="main-naviagtion__link">About us</a>
             </li>
             <li>
-              <a href="#" class="menu-item__link">Shop</a>
+              <a href="#" class="main-naviagtion__link">Page</a>
             </li>
             <li>
-              <a href="#" class="menu-item__link">Blog</a>
+              <a href="#" class="main-naviagtion__link">Shop</a>
             </li>
             <li>
-              <a href="#" class="menu-item__link">Contact us</a>
+              <a href="#" class="main-naviagtion__link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="main-naviagtion__link">Contact us</a>
             </li>
           </ul>
         </nav>
@@ -81,24 +77,26 @@
 
     <main>
       <section class="hero">
-        <h2 class="hero-title visual-hidden">Dress&amp;jeans</h2>
-        <img
-          src="img/slide4.jpg"
-          alt="four girls"
-          class="hero__banner-img"
-          width="1600"
-          height="600"
-        />
-        <div class="hero-content">
-          <h3 class="hero-content__title">
-            Dress <span class="hero-content__decoration">&amp;</span> jeans
-            <br />
-            <span class="hero-content__title--second-part"
-              >from ourfamous brands
-              <span class="hero-content__decoration">sale</span></span
-            >
-          </h3>
-          <button type="button" class="hero-content__button">buy now</button>
+        <div class="container">
+          <h2 class="hero-title visual-hidden">Dress&amp;jeans</h2>
+          <!-- <img
+            src="img/slide4.jpg"
+            alt="four girls"
+            class="hero__banner-img"
+            width="1600"
+            height="600"
+          /> -->
+          <div class="hero-content">
+            <h3 class="hero-content__title">
+              Dress <span class="hero-content__decoration">&amp;</span> jeans
+              <br />
+              <span class="hero-content__title--second-part"
+                >from ourfamous brands
+                <span class="hero-content__decoration">sale</span></span
+              >
+            </h3>
+            <button type="button" class="hero-content__button">buy now</button>
+          </div>
         </div>
       </section>
 
@@ -106,36 +104,36 @@
 
       <div class="container">
         <ul class="about list">
-          <li class="about__item">
+          <li class="about__item  about__item--settings">
             <!-- <img src="img/settings.svg" alt="" width="66" height="66" /> -->
-            <h3 class="about__title settings">Setting</h3>
+            <h3 class="about__title">Setting</h3>
             <p class="about__discription">
               Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
               efficiantur in. Nec id tempor imperdiet deterruisset, doctus
               volumus explicari qui ex, appareat similique an usu.
             </p>
           </li>
-          <li class="about__item">
+          <li class="about__item about__item--moneyback">
             <!-- <img src="img/moneyback.svg" alt="" width="66" height="66" /> -->
-            <h3 class="about__title moneyback">Money back</h3>
+            <h3 class="about__title">Money back</h3>
             <p class="about__discription">
               Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
               efficiantur in. Nec id tempor imperdiet deterruisset, doctus
               volumus explicari qui ex, appareat similique an usu.
             </p>
           </li>
-          <li class="about__item">
+          <li class="about__item about__item--worldwide">
             <!-- <img src="img/worldwide.svg" alt="" width="66" height="66" /> -->
-            <h3 class="about__title worldwide">Wordwide shipping</h3>
+            <h3 class="about__title ">Wordwide shipping</h3>
             <p class="about__discription">
               Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
               efficiantur in. Nec id tempor imperdiet deterruisset, doctus
               volumus explicari qui ex, appareat similique an usu.
             </p>
           </li>
-          <li class="about__item">
+          <li class="about__item about__item--compass">
             <!-- <img src="img/compass.svg" alt="" width="66" height="66" /> -->
-            <h3 class="about__title compass">Wordwide shipping</h3>
+            <h3 class="about__title">Wordwide shipping</h3>
             <p class="about__discription">
               Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
               efficiantur in. Nec id tempor imperdiet deterruisset, doctus
@@ -147,27 +145,38 @@
 
       <!-- =====New Collection section======= -->
 
-      <section class="new-collection">
+      <section class="new-collection common-section">
         <div class="container">
-          <h2 class="section-title">New collection</h2>
+          <h2 class="section-title section-title--new-collection">
+            New collection
+          </h2>
           <ul class="new-collection__list list ">
             <li class="new-collection__item">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -175,12 +184,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -197,21 +206,30 @@
             </li>
             <li class="new-collection__item">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -219,12 +237,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -241,21 +259,30 @@
             </li>
             <li class="new-collection__item">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -263,12 +290,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -285,21 +312,30 @@
             </li>
             <li class="new-collection__item">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -307,12 +343,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -323,8 +359,8 @@
                 height="322"
               />
               <a href="#" class="new-collection__link">
-                <span class="new-collection__title">Cool lingerie</span>
-                <span class="new-collection__price">$56</span>
+                <span class="new-collection__title">Yellow tshirt</span>
+                <span class="new-collection__price">$21</span>
               </a>
             </li>
           </ul>
@@ -333,30 +369,41 @@
 
       <!-- ======Products section====== -->
 
-      <section class="products">
+      <section class="products common-section">
         <div class="container">
-          <h2 class="section-title">Featured products</h2>
+          <h2 class="section-title section-title-featured-products">
+            Featured products
+          </h2>
 
           <ul class="cards-products list">
             <!-- ======First row====== -->
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -364,12 +411,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -390,21 +437,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -412,12 +468,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -435,21 +491,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -457,12 +522,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -480,21 +545,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -502,12 +576,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -527,21 +601,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -549,12 +632,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -573,21 +656,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -595,12 +687,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -618,21 +710,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -640,12 +741,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -663,21 +764,30 @@
 
             <li class="card-product">
               <div class="overlay">
-                <ul class="overlay__list list">
-                  <li class="overlay__item">
-                    <button type="button" class="overlay__button heart">
+                <section class="overlay__section">
+                  <div class="overlay__item">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--heart"
+                    >
                       <span class="visual-hidden overlay__reach">
                         add to favorite</span
                       >
                     </button>
 
-                    <button type="button" class="overlay__button shuffle">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--shuffle"
+                    >
                       <span class="visual-hidden overlay__reach">
                         shuffle
                       </span>
                     </button>
 
-                    <button type="button" class="overlay__button clock">
+                    <button
+                      type="button"
+                      class="overlay__button overlay__button--clock"
+                    >
                       <span class="visual-hidden overlay__reach">
                         take an installment
                       </span>
@@ -685,12 +795,12 @@
 
                     <button
                       type="button"
-                      class="overlay__bottom-button add-to-card"
+                      class="overlay__bottom-button overlay__button--add-to-card"
                     >
                       add to card
                     </button>
-                  </li>
-                </ul>
+                  </div>
+                </section>
               </div>
 
               <img
@@ -711,15 +821,18 @@
 
       <!-- =======Latest news section======== -->
 
-      <section class="blog">
+      <section class="blog common-section">
         <div class="container">
-          <h2 class="section-title">Latest news</h2>
+          <h2 class="section-title">
+            Latest news
+          </h2>
+
           <ul class="blog-articl list">
             <li class="blog-articl__item">
               <img
                 src="img/ipad-632394_960_720.png"
                 alt="ipad"
-                class="blog-img"
+                class="blog-articl__img"
                 width="350"
                 height="262"
               />
@@ -731,15 +844,16 @@
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt auctor a ornare
               </p>
-              <button type="button" class="blog-articl__button">
+              <a href="#" class="blog-articl__button link">Read More</a>
+              <!-- <button type="button" class="blog-articl__button">
                 Load more
-              </button>
+              </button> -->
             </li>
             <li class="blog-articl__item">
               <img
                 src="img/slide1.png"
                 alt="two girls"
-                class="blog-img"
+                class="blog-articl__img"
                 width="347"
                 height="261"
               />
@@ -751,15 +865,16 @@
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt auctor a ornare
               </p>
-              <button type="button" class="blog-articl__button">
+              <a href="#" class="blog-articl__button link">Read More</a>
+              <!-- <button type="button" class="blog-articl__button">
                 Load more
-              </button>
+              </button> -->
             </li>
             <li class="blog-articl__item">
               <img
                 src="img/product-img-5.png"
                 alt="bus"
-                class="blog-img"
+                class="blog-articl__img"
                 width="347"
                 height="262"
               />
@@ -771,9 +886,10 @@
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
                 Nam nec tellus a odio tincidunt auctor a ornare
               </p>
-              <button type="button" class="blog-articl__button">
+              <a href="#" class="blog-articl__button link">Read More</a>
+              <!-- <button type="button" class="blog-articl__button">
                 Load more
-              </button>
+              </button> -->
             </li>
           </ul>
         </div>
@@ -782,10 +898,12 @@
       <!-- =====Foooter====== -->
 
       <footer>
-        <section class="footer">
+        <section class="footer common-section">
           <div class="footer__container">
             <div class="container">
-              <h2 class="section-title__footer section-title">Newsletter</h2>
+              <h2 class="section-title section-title--newsletter">
+                Newsletter
+              </h2>
 
               <h3 class="newsletter-subscribe__name-form">
                 Follow a collection of news & promotions
